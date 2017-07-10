@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AppFrame</string>
+    <string name="tv_downing">正在下载%1$s%%</string>
+</resources>

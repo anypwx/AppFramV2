@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:lines="1"
+        android:ellipsize="end"
+        android:text="滥捕海马做标本 英国机构"
+        android:textSize="16sp"
+        android:textColor="#333333"/>
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="8dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_gravity="right"
+        android:textSize="12sp"
+        android:textColor="#999999"
+        android:text="2015-08-03 13:47"/>
+
+</LinearLayout>

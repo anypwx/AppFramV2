@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aframe.appframe.MainActivity">
+
+    <TextView
+        android:id="@+id/tv_he"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="Hello World!"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/tv_content"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"/>
+        <Button
+            android:id="@+id/btn_sub"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tv_uploadurl"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="4"/>
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="提交"/>
+    </LinearLayout>
+        <ImageView
+        android:id="@+id/iv_img"
+        android:layout_width="80dp"
+        android:layout_height="70dp"
+        android:text="提交"/>
+
+    <Button
+        android:id="@+id/btn_go"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="跳转"/>
+
+    <Button
+        android:id="@+id/btn_down"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载"/>
+</LinearLayout>
